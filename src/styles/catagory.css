@@ -1,0 +1,40 @@
+.container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .catagoryList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-items: center;
+  }
+  
+  .catagory {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .catagory img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .catagory:hover img {
+    transform: scale(1.05);
+  }
+  
+  .catagoryTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+  }
+  
