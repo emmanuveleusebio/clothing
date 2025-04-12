@@ -49,7 +49,7 @@ export default function HomePage() {
         <p>Strategic Experiences / Results Driven Solutions / Business Value / Purpose</p>
     </div>
 </div>
-<img className="coverImg" src="/src/assets/coverimg.png" alt="coverimg.png" />
+<img className="coverImg" src="/coverimg.png" alt="coverimg.png" />
 
 <Catagories />
 

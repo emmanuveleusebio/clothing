@@ -5,19 +5,19 @@ export default function Catagories(){
 
     const catagoryArray = [
         {
-            image:'/src/assets/pets.png',
+            image:'/pets.png',
             title:'Summer'
         },
         {
-            image:'/src/assets/pets.png',
+            image:'/pets.png',
             title:'Winter'
         },
         {
-            image:'/src/assets/pets.png',
+            image:'/pets.png',
             title:'Rain'
         },
         {
-            image:'/src/assets/pets.png',
+            image:'/pets.png',
             title:'Summer'
         },
         
